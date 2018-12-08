@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/viewholder_height">
+
+    <TextView
+        android:id="@+id/colorName"
+        style="@style/ConstraintLayoutMatchParent"
+        android:gravity="center"
+        android:textSize="@dimen/viewholder_textsize"
+        tools:text="Blue" />
+
+</android.support.constraint.ConstraintLayout>
